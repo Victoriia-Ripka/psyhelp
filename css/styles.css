@@ -1,0 +1,52 @@
+.body {
+  background-color: white;
+  font-family: "Open Sans", "Roboto", sans-serif;
+}
+
+.main {
+}
+
+.main-h1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: black;
+  position: absolute;
+  width: 521px;
+  height: 92px;
+  padding: 275 0 0 380;
+}
+
+.main-h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: black;
+  width: 507px;
+  height: 66px;
+}
+
+.main-message {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.telegram {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
