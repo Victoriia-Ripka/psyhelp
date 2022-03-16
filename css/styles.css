@@ -21,6 +21,11 @@
 }
 
 .section1-h3 {
+  position: absolute;
+  width: 507px;
+  height: 66px;
+  left: 380px;
+  top: 386px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
@@ -32,13 +37,17 @@
 }
 
 .section1-message {
+  position: static;
+  width: 285px;
+  height: 90px;
+  left: 715px;
+  top: 545px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
-  color: black;
-  width: 285;
+  color: #000000;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -81,6 +90,30 @@
   color: black;
 }
 
+.section2-bottom-text {
+  position: absolute;
+  width: 180px;
+  height: 20px;
+  left: 745px;
+  top: 670px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.section2-buttom {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 715px;
+  top: 650px;
+  background: #2196f3;
+  border-radius: 60px;
+}
+
 .section3-h2 {
   position: absolute;
   width: 450px;
@@ -93,6 +126,13 @@
   font-size: 40px;
   line-height: 46px;
   color: #000000;
+}
+
+.section3-list {
+  color: white;
+}
+
+.section3-item {
 }
 
 .section3-h3 {
@@ -145,4 +185,100 @@
   top: 2275px;
   background: #2196f3;
   border-radius: 60px;
+}
+
+.section4-h2 {
+  position: absolute;
+  width: 175px;
+  height: 45px;
+  left: 380px;
+  top: 2555px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #000000;
+}
+
+.section4-message {
+  position: static;
+  width: 285px;
+  height: 90px;
+  left: 1200px;
+  top: 2800px;
+  bottom: 45.95%;
+  left: 8.7%;
+  right: 8.7%;
+  top: 14.4%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.section4-h4 {
+  position: absolute;
+  width: 207px;
+  height: 33px;
+  left: 1168px;
+  top: 3034px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.section4-span {
+  position: absolute;
+  width: 59px;
+  height: 22px;
+  left: 1168px;
+  top: 3099px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.footer-text {
+  position: absolute;
+  width: 110px;
+  height: 15px;
+  left: 905px;
+  top: 3465px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5e5e5e;
+}
+
+.footer-link {
+  color: #2196f3;
+}
+
+.footer-lang {
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  left: 1460px;
+  top: 3465px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
 }
