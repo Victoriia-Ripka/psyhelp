@@ -6,6 +6,7 @@
 .main {
 }
 
+/*page 1*/
 .section1-h1 {
   position: absolute;
   width: 520px;
@@ -37,7 +38,7 @@
 }
 
 .section1-message {
-  position: static;
+  position: absolute;
   width: 285px;
   height: 90px;
   left: 715px;
@@ -54,6 +55,16 @@
   margin: 20px 0px;
 }
 
+.section1-buttom {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 715px;
+  top: 670px;
+  background: #2196f3;
+  border-radius: 60px;
+}
+
 .telegram {
   font-family: "Open Sans";
   font-style: normal;
@@ -62,6 +73,7 @@
   line-height: 22px;
 }
 
+/*page2*/
 .section2-h2 {
   position: absolute;
   width: 670px;
@@ -90,29 +102,7 @@
   color: black;
 }
 
-.section2-bottom-text {
-  position: absolute;
-  width: 180px;
-  height: 20px;
-  left: 745px;
-  top: 670px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-}
-
-.section2-buttom {
-  position: absolute;
-  width: 240px;
-  height: 50px;
-  left: 715px;
-  top: 650px;
-  background: #2196f3;
-  border-radius: 60px;
-}
+/*page3*/
 
 .section3-h2 {
   position: absolute;
@@ -128,8 +118,16 @@
   color: #000000;
 }
 
-.section3-list {
+.section3-list1 {
   color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section3-list2 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
 .section3-item {
@@ -187,6 +185,7 @@
   border-radius: 60px;
 }
 
+/*page4*/
 .section4-h2 {
   position: absolute;
   width: 175px;
@@ -202,7 +201,7 @@
 }
 
 .section4-message {
-  position: static;
+  position: absolute;
   width: 285px;
   height: 90px;
   left: 1200px;
@@ -221,6 +220,30 @@
   order: 0;
   flex-grow: 0;
   margin: 20px 0px;
+}
+
+.section4-bottom-text {
+  position: absolute;
+  width: 180px;
+  height: 20px;
+  left: 745px;
+  top: 670px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.section4-buttom {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 715px;
+  top: 670px;
+  background: #2196f3;
+  border-radius: 60px;
 }
 
 .section4-h4 {
